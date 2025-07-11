@@ -1,0 +1,59 @@
+:host {
+  --ion-padding: 16px;
+}
+
+ion-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+ion-card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--ion-color-primary);
+}
+
+ion-input {
+  --padding-start: 10px;
+  --padding-end: 10px;
+}
+
+ion-button {
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+ion-item {
+  --border-radius: 10px;
+  margin-top: 10px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+ion-item-sliding {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.filter-select {
+  margin: 20px 0;
+}
+
+.empty-message {
+  text-align: center;
+  margin-top: 30px;
+  color: var(--ion-color-medium);
+  font-style: italic;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 8px;
+}
